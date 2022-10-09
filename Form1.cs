@@ -16,7 +16,7 @@ namespace Laiks_un_datums
             DateTime theDate;
             theDate = DateTime.Now;
             MessageBox.Show(theDate.ToString());
-           File.AppendAllText("LaiksunDatums.txt", theDate.ToString());
+           File.AppendAllText("LaiksunDatums.txt", theDate.ToString() + "\n");
             
             
         }
